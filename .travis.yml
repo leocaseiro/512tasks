@@ -16,6 +16,12 @@ cache:
   directories:
      - ./node_modules
 
+skip_cleanup: true
+
+branches:
+  only:
+  - master
+
 before_install:
   - export CHROME_BIN=chromium-browser
   - export DISPLAY=:99.0
@@ -35,7 +41,8 @@ env:
   - production: true
 
 after_success:
-  - ng build --prod
+  - npm run build
+  - npm run gh-pages
 
 notifications:
   email:

@@ -3,12 +3,16 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
+    "build": "npm run build:ng && npm run build:docs",
+    "build:ng": "ng build --prod --bh https://leocaseiro.github.io/512tasks/",
+    "build:docs": "./node_modules/.bin/compodoc -p src/tsconfig.app.json --output dist/docs --name 512tasks",
+    "docs:dev": "compodoc -p src/tsconfig.app.json -s",
+    "e2e": "ng e2e",
+    "gh-pages": "git subtree push --prefix=dist/ origin gh-pages",
+    "lint": "ng lint",
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --prod",
-    "test": "ng test -sr",
-    "lint": "ng lint",
-    "e2e": "ng e2e"
+    "test": "ng test -sr"
   },
   "private": true,
   "dependencies": {
@@ -29,6 +33,7 @@
     "@angular/cli": "~1.7.0",
     "@angular/compiler-cli": "^5.2.0",
     "@angular/language-service": "^5.2.0",
+    "@compodoc/compodoc": "^1.0.7",
     "@types/jasmine": "~2.8.3",
     "@types/jasminewd2": "~2.0.2",
     "@types/node": "~6.0.60",
