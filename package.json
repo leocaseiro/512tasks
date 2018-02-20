@@ -11,7 +11,7 @@
     "gh-pages": "git subtree push --prefix=dist/ origin gh-pages",
     "lint": "ng lint",
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve -o -p 4512",
     "test": "ng test -sr"
   },
   "private": true,
