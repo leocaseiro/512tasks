@@ -6,7 +6,8 @@
     "resources": {
       "files": [
         "/**/favicon.ico",
-        "/**/*.html"
+        "/**/*.html",
+        "/512tasks/"
       ],
       "versionedFiles": [
         "/**/*.bundle.css",
