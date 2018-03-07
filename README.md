@@ -1,6 +1,6 @@
 # Ngx512tasks
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.0.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.2 and uses Service Worker for caching.
 
 ## Documentation
 
