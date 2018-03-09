@@ -9,7 +9,6 @@
       "urls": [
         "https://leocaseiro.github.io/512tasks/favicon.ico",
         "https://leocaseiro.github.io/512tasks/index.html",
-        "https://leocaseiro.github.io/512tasks/",
         "https://leocaseiro.github.io/512tasks/inline.318b50c57b4eba3d437b.bundle.js",
         "https://leocaseiro.github.io/512tasks/main.b4c9f0f5050967cd62d0.bundle.js",
         "https://leocaseiro.github.io/512tasks/polyfills.bf95165a1d5098766b92.bundle.js",
@@ -32,6 +31,6 @@
     "https://leocaseiro.github.io/512tasks/polyfills.bf95165a1d5098766b92.bundle.js": "5f49131c0c147a20f91b1e77814434e0c77bd3dc",
     "https://leocaseiro.github.io/512tasks/styles.ac89bfdd6de82636b768.bundle.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
     "https://leocaseiro.github.io/512tasks/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "https://leocaseiro.github.io/512tasks/index.html": "5b55a3098442880e7d43768edc94400da4615e20"
+    "https://leocaseiro.github.io/512tasks/index.html": "6e4a243d9a947052f7427e337b328099bf16d750"
   }
 }
