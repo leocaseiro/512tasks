@@ -431,8 +431,10 @@ import { NgModule } from &#x27;@angular/core&#x27;;
 
 import { AppRoutingModule } from &#x27;./app-routing.module&#x27;;
 
+import { ServiceWorkerModule } from &#x27;@angular/service-worker&#x27;;
 import { AppComponent } from &#x27;./app.component&#x27;;
 
+import { environment } from &#x27;../environments/environment&#x27;;
 
 @NgModule({
   declarations: [
@@ -440,7 +442,8 @@ import { AppComponent } from &#x27;./app.component&#x27;;
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ServiceWorkerModule.register(&#x27;./ngsw-worker.js&#x27;, { enabled: environment.production })
   ],
   providers: [],
   bootstrap: [AppComponent]
